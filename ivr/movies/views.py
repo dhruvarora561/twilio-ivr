@@ -28,7 +28,7 @@ def validate_django_request(request: HttpRequest):
        raise SuspiciousOperation()
    
 @csrf_exempt
-def answer(request: HttpRequest) -> HttpResponse:
+def choose_theater(request: HttpRequest) -> HttpResponse:
     validate_django_request(request)
     vr = VoiceResponse()
     vr.say('welcome to movie info!')
