@@ -15,6 +15,10 @@ echo "installing dependencies"
 pip3 install django
 pip3 install twilio
 
+echo "cloning the repository"
+git clone https://github.com/dhruvarora561/twilio-ivr.git
+cd twilio-ivr
+
 echo "Now you need to enter your twilio auth key"
 read authtoken
 export TWILIO_AUTH_TOKEN=$authtoken
