@@ -3,7 +3,7 @@
 1. This is a simple django based web application which will allow users to create an interactive voice system using twilio.  
 2. download and run the `automate.sh` file to finish setting up the server or you can perform the steps manually.
 ```shell 
-wget https://github.com/dhruvarora561/twilio-ivr/blob/main/automate.sh
+wget https://raw.githubusercontent.com/dhruvarora561/twilio-ivr/main/automate.sh
 bash automate.sh
 ```
 To get started, simply clone this repository
